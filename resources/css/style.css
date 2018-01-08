@@ -1,0 +1,349 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  color: dimgrey;
+}
+
+
+a {
+  text-decoration: none;
+  color: dimgrey;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.Colmar {
+  text-transform: uppercase;
+  color: grey;
+  font-weight: bold;
+}
+
+.Academy {
+  text-transform: uppercase;
+  color: silver;
+  align-items: center;
+}
+
+#pc {
+  display: block;
+}
+
+#pc a {
+  margin-left: 16px;
+}
+
+#cell {
+  display: none;
+}
+
+#learn {
+  background-color: gainsboro;
+  padding: 32px 24px;
+  display: flex;
+}
+
+#learn h1 {
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+
+#learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+.banner_pic {
+  width: 60%;
+  height: auto;
+  margin-right: 24px;
+}
+
+.banner_right {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  padding-left: 16px;
+  margin-left: 24px;
+}
+.banner_right h1 {
+  font-weight: bold;
+}
+
+button {
+  background-color: dimgrey;
+  color: gainsboro;
+  font-size: 1rem;
+  padding: 8px 0;
+
+}
+
+button:hover {
+  background-color: white;
+  color: dimgrey;
+  border: 1px solid dimgrey;
+}
+
+#practice {
+  display: flex;
+}
+
+#practice h1 {
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: 32px 0 24px 0;
+  font-weight: bold;
+}
+
+#practice h3 {
+  font-size: 1.5rem;
+}
+
+#practice h4 {
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+#practice a {
+  text-decoration: underline;
+}
+
+#practice a:hover {
+  text-decoration: none;
+}
+
+.practice_main {
+  padding: 32px 24px;
+  border-right: 1px solid gainsboro;
+}
+
+.practice_pic {
+  width: 100%;
+  height: auto;
+}
+
+.quoted {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+
+.campus_info_single {
+  display: flex;
+  width: 40%
+  min-height: 168px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.holder-img-campus-info {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+
+.img-campus-info-mobile {
+  display: none;
+}
+
+.campus_info_text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.campus_info_text h3 {
+  font-weight: bold;
+}
+
+.campus_shadow {
+  background-color: gainsboro;
+  display: flex;
+  width: 40%
+  min-height: 168px;
+  border-bottom: 1px solid gainsboro;
+}
+
+#learning {
+  background-color: gainsboro;
+  padding-bottom: 16px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+#learning h1 {
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#learning h2 {
+  font-size: 1.5rem;
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+#learning h3 {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.holder_course {
+  background-color: white;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.course_txt {
+  padding: 16px 16px;
+}
+
+.img_course {
+  height: auto;
+  overflow: hidden;
+  display: block;
+  margin-right: 32px;
+  width: 100%;
+}
+
+#thesis h1 {
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#thesis h3 {
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.holder-thesis-vid {
+  width: 60%
+}
+
+.holder_thesis {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid gainsboro;
+}
+
+.holder-vid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.vid_txt {
+  margin: 24px;
+}
+
+.vid_txt h3 {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.thesis_txt {
+  margin: 24px 0 32px 24px;
+}
+
+.thesis_txt h3 {
+  font-weight: bold;
+}
+.thesis_info {
+  min-width: 40%;
+  margin-left: 16px;
+}
+
+.thesis_shadow {
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+}
+.thesis_ny {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.holder-thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  width: 100%;
+  height: auto;
+}
+
+
+footer {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gainsboro;
+}
+
+
+footer a {
+  display: inline-block;
+  padding-right: 16px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
